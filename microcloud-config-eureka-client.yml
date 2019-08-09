@@ -18,10 +18,10 @@ eureka:
     hostname: localhost # 定义 Eureka 实例所在的主机名称
 spring:
   profiles: dev
-  security:
-    user:
-      name: admin
-      password: enjoy
+  #security:
+    #user:
+      #name: admin
+      #password: enjoy
   application:
     name: microcloud-config-eureka-client
 ---
@@ -40,9 +40,9 @@ eureka:
     hostname: localhost # 定义 Eureka 实例所在的主机名称
 spring:
   profiles: beta
-  security:
-    user:
-      name: admin
-      password: enjoy
+  #security:
+    #user:
+      #name: admin
+      #password: enjoy
   application:
     name: microcloud-config-eureka-client
